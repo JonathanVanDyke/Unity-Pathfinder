@@ -36,7 +36,6 @@ public class CubeEditor : MonoBehaviour
 
     void UpdateLabel()
     {
-        int gridSize = waypoint.GetGridSize();
         string labelText = 
             waypoint.GetGridPos().x + 
             "," + 
